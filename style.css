@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: linear-gradient(180deg,blue,rgb(98, 98, 254),rgb(129, 129, 248),violet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h3{
+    padding: 30px;
+    text-align: center;
+    color: beige;
+    font: 2em sans-serif;
+}
+#mic_btn{
+    padding: 50px;
+    border-radius: 180px;
+    background-color: rgb(108, 4, 194);
+    border: none;
+    margin: 30px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font: bolder;
+    font-size: larger;    
+}
+#mic_btn:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg,pink,blue);
+}
+#output{
+    color: azure;
+    font: message-box;
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+}  
